@@ -1,0 +1,56 @@
+html,
+body {
+    height: 100%;
+    font-family: 'montseratt', sans-serif;
+}
+
+.text_box {
+    padding: 30px;
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgba(179, 34, 34, 0.521);
+    border-radius: 16px 16px 16px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#container{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(69, 153, 168);
+    
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.center_buttons{
+    margin:auto;
+    display: block;
+    padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 16px 16px 16px 16px;
+  margin-top: 25px;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  
+  color: #313131;
+  font-size: 20px;
+ transition: 0.4s ease;
+}
+.navbar{
+  color: rgb(41, 35, 77);
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  border-radius: 16px 16px 16px 16px;
+  font-family: 'montseratt', sans-serif;
+  
+}
